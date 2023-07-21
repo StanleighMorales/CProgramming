@@ -9,9 +9,9 @@ void inputSudoku(int sudoku[3][3], int row, int cols)
              printf("array[%d][%d]: ",row, cols);
              scanf("%d",&sudoku[row][cols]);//dont forget to put
              //square bracket and the & in scanning 2d arrays.
-             printf("reading\n");
+
              if(sudoku[row][cols]=1){
-                printf("sudokuku");
+                printf("sudokuku\n");
              }else
              printf("wtf not 1?");
              continue;
